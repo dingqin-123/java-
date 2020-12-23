@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="柠檬班项目" parallel="false">
+
+	<test name="用户模块">   
+		<classes>
+			<!--  -->
+			 <class name="com.jiayu.cases.RegisterCase"/>  
+			 <class name="com.jiayu.cases.LoginCase"/>  
+			 <class name="com.jiayu.cases.RechargeCase"/>
+		</classes>
+	</test>
+	
+	<parameter name="type" value="firefox"></parameter>
+	<parameter name="version" value="1.0.0"></parameter>
+	
+</suite>
